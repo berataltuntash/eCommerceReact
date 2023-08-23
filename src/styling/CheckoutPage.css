@@ -1,0 +1,137 @@
+/* CheckoutPage.css */
+
+/* Body and page background color */
+body {
+    background-color: #fffdf5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Page title styles */
+  .page-title {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Checkout page styles */
+  .checkout-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Address block styles */
+  .address-block {
+    margin-bottom: 20px;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .address-block h2 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .address-block input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Payment block styles */
+  .payment-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .payment-block h2 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .expiry-cvv-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .expiry-cvv-block input {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .expiry-cvv-block span {
+    margin-right: 5px;
+  }
+  
+  /* Credit card block styles */
+  .credit-card-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .credit-card-block img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .credit-card-block h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .credit-card-block p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Pay button styles */
+  .pay-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pay-btn:hover {
+    background-color: #0056b3;
+  }
+  

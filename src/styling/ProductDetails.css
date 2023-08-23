@@ -1,0 +1,98 @@
+/* ProductDetailsPage.css */
+
+/* Center everything except navbar */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cream;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Product details styles */
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f1f1f1; /* Light gray background */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .image-block img {
+    max-width: 300px;
+  }
+  
+  .info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .item-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #007bff; /* Blue color for price */
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .add-to-cart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff; /* Blue color for button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  

@@ -1,0 +1,91 @@
+/* HomePage.css */
+
+/* Body and page background color */
+body {
+    background-color: #fffdf5;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Page title styles */
+  .page-title {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Product list styles */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Remove underline from product link */
+  .product a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Product image styles */
+  .product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Product name styles */
+  .product h2 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Product price styles */
+  .product-price {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Add to cart button styles */
+  .add-to-cart-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #0056b3;
+  }
+  
